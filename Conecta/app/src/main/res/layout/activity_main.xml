@@ -10,335 +10,117 @@
 
     <TableRow android:layout_weight="1">
 
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F11Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F12Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F13Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F14Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F15Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F16Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F17Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-
 
     </TableRow>
 
     <TableRow android:layout_weight="1">
 
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F21Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F22Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F23Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F24Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F25Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F26Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F27Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-
 
     </TableRow>
 
     <TableRow android:layout_weight="1">
 
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F31Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F32Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F33Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F34Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F35Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F36Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F37Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-
 
     </TableRow>
 
     <TableRow android:layout_weight="1">
 
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F41Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F42Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F43Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F44Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F45Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F46Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F47Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-
 
     </TableRow>
 
     <TableRow android:layout_weight="1">
 
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F51Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F52Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F53Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F54Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F55Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F56Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F57Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-
 
     </TableRow>
 
     <TableRow android:layout_weight="1">
 
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F61Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F62Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F63Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F64Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F65Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F66Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/F67Button"
-            android:background="@android:color/transparent"
-            android:src="@drawable/c4_button"
+        <ImageButton style="@style/C4Button"
             android:contentDescription="@string/contentDescription"/>
-
 
     </TableRow>
-
-
 
 
 </TableLayout>
