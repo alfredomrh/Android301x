@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/alfredo.martinromo/Downloads/conecta4_semana3_incompleto/Conecta4_semana3_incompleto/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/alfredo/GitRepositorios/Android301x/Conecta4_semana3_incompleto/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">Conecta4 (Semana 3)</string>
     <string name="contentDescription">Botón de Conecta 4</string>
     <string name="fin_del_juego">La partida ha terminado</string>
     <string name="nosepuedecolocarficha">No se puede colocar ficha</string>
     <string name="titulo">CONECTA 4</string>
-    <!-- From: file:/C:/Users/alfredo.martinromo/Downloads/conecta4_semana3_incompleto/Conecta4_semana3_incompleto/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/alfredo/GitRepositorios/Android301x/Conecta4_semana3_incompleto/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
