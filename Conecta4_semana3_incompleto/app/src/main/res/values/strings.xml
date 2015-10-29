@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Conecta4 (Semana 3)</string>
-    <string name="titulo">CONECTA 4</string>
+    <string name="titulo">CONECTA 4 ALFREDO!</string>
     <string name="contentDescription">Botón de Conecta 4</string>
     <string name="nosepuedecolocarficha">No se puede colocar ficha</string>
     <string name="fin_del_juego">La partida ha terminado</string>
