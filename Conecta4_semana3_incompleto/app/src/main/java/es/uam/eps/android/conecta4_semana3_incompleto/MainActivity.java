@@ -36,6 +36,16 @@ public class MainActivity extends Activity {
 		resultadoTextView = (TextView) findViewById(R.id.resultadoTextView); //recuperamos la referencia a la vista resultadoTextView
     }
 
+    protected void onResume(){
+        super.onResume();
+        Music.play(this, R.raw.sonido1);
+    }
+
+    protected void onPause(){
+        super.onPause();
+        Music.stop(this);
+    }
+
     public void pulsado(View v) {  //metodo que se activa al pulsar el botor
 
         int fila, columna, id = v.getId(); //consigue el identificador de la vista

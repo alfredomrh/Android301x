@@ -6,7 +6,7 @@
     <string name="contentDescription">Botón de Conecta 4</string>
     <string name="fin_del_juego">La partida ha terminado</string>
     <string name="nosepuedecolocarficha">No se puede colocar ficha</string>
-    <string name="titulo">CONECTA 4 ALFREDO!</string>
+    <string name="titulo">CONECTA 4</string>
     <!-- From: file:/D:/Github/Android301x/Conecta4_semana3_incompleto/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
