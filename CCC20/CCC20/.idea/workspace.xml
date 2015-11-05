@@ -4,11 +4,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dd48734-ac48-42b9-a1d6-1d8646988874" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/es/uam/eps/android/ccc20/Game.java" afterPath="$PROJECT_DIR$/app/src/main/java/es/uam/eps/android/ccc20/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/es/uam/eps/android/ccc20/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/es/uam/eps/android/ccc20/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/es/uam/eps/android/ccc20/Music.java" afterPath="$PROJECT_DIR$/app/src/main/java/es/uam/eps/android/ccc20/Music.java" />
-    </list>
+    <list default="true" id="8dd48734-ac48-42b9-a1d6-1d8646988874" name="Default" comment="" />
     <ignored path="CCC20.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
