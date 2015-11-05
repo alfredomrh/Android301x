@@ -1,8 +1,10 @@
 package es.uam.eps.android.ccc20;
 
+//Clase Game que implementa toda la logica del juego
 public class Game {
-	static final int SIZE = 7;
-	private int grid[][];
+
+	static final int SIZE = 7; //tamaño de filas y columnas
+	private int grid[][]; //matriz
 	private static final int CROSS[][] = { { 0, 0, 1, 1, 1, 0, 0 },
 			{ 0, 0, 1, 1, 1, 0, 0 }, { 1, 1, 1, 1, 1, 1, 1 },
 			{ 1, 1, 1, 0, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1 },
@@ -14,26 +16,29 @@ public class Game {
 	private int pickedI, pickedJ;
 	private int jumpedI, jumpedJ;
 
+	//tipo enumerado con el estado
 	private enum State {
 		READY_TO_PICK, READY_TO_DROP, FINISHED
 	};
 
-	private State gameState;
+	private State gameState; //objeto que almacena el estado
 
-	public Game() {
-		grid = new int[SIZE][SIZE];
+	public Game() { //constructor de la clase
+		grid = new int[SIZE][SIZE]; //define el tamaño de la matriz
 
 		for (int i = 0; i < SIZE; i++)
 			for (int j = 0; j < SIZE; j++)
-				grid[i][j] = CROSS[i][j];
+				grid[i][j] = CROSS[i][j];  //la inicializa con la matriz declarada de 7x7
 
-		gameState = State.READY_TO_PICK;
+		gameState = State.READY_TO_PICK; //pone el estado del juego en listo para picar
 	}
 
+	//retorna el valor de una posicion dada de la matrix
 	public int getGrid(int i, int j) {
 		return grid[i][j];
 	}
 
+	//determina si una posicion esta disponible para picar
 	public boolean isAvailable(int i1, int j1, int i2, int j2) {
 
 		if (grid[i1][j1] == 0 || grid[i2][j2] == 1)
@@ -56,6 +61,7 @@ public class Game {
 		return false;
 	}
 
+	//metodo que realiza el moviemiento
 	public void play(int i, int j) {
 		if (gameState == State.READY_TO_PICK) {
 			pickedI = i;
@@ -78,6 +84,7 @@ public class Game {
 		}
 	}
 
+	//metodo que determina si el juego ha terminado
 	public boolean isGameFinished() {
 
 		for (int i = 0; i < SIZE; i++)
