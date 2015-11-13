@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Conecta4 (Semana 3)</string>
+    <string name="app_name">Conecta4 (Semana 4)</string>
     <string name="titulo">CONECTA 4</string>
     <string name="contentDescription">Botón de Conecta 4</string>
     <string name="nosepuedecolocarficha">No se puede colocar ficha</string>
     <string name="fin_del_juego">La partida ha terminado</string>
+    <string name="gana_jugador">La partida ha terminado, gana el jugador</string>
+    <string name="gana_maquina">La partida ha terminado, gana la maquina</string>
 
 </resources>

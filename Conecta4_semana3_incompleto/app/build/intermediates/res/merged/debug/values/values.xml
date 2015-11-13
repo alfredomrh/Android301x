@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/D:/Github/Android301x/Conecta4_semana3_incompleto/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/D:/Github/Android301x/Conecta4_semana3_incompleto/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="app_name">Conecta4 (Semana 3)</string>
+    <string name="app_name">Conecta4 (Semana 4)</string>
     <string name="contentDescription">Botón de Conecta 4</string>
     <string name="fin_del_juego">La partida ha terminado</string>
+    <string name="gana_jugador">La partida ha terminado, gana el jugador</string>
+    <string name="gana_maquina">La partida ha terminado, gana la maquina</string>
     <string name="nosepuedecolocarficha">No se puede colocar ficha</string>
     <string name="titulo">CONECTA 4</string>
     <!-- From: file:/D:/Github/Android301x/Conecta4_semana3_incompleto/app/src/main/res/values/styles.xml -->

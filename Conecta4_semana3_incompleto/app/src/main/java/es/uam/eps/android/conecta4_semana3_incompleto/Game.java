@@ -105,4 +105,68 @@ public class Game {
 
         tablero[fila][columna] = MAQUINA; //la pone como ocupada
     }
+
+    public boolean comprobarFilas(int turno){
+
+       int count = 0;
+
+        for (int j=0; j<NCOLUMNAS; j++) {
+
+            for (int i = 0; i < NFILAS; i++) {
+
+                if (tablero[i][j] == turno) count++;
+
+            }
+            if (count == 4) return true;
+            else count = 0;
+        }
+
+        return false;
+    }
+
+    public boolean comprobarColumnas(int turno){
+
+        int count = 0;
+
+        for (int i=0; i<NFILAS; i++) {
+
+            for (int j = 0; j < NCOLUMNAS; j++) {
+
+                if (tablero[i][j] == turno) count++;
+
+            }
+            if (count == 4) return true;
+            else count = 0;
+        }
+
+        return false;
+    }
+
+    public boolean comprobarDiagonales(int turno){
+
+        int count = 0;
+
+        for (int i = 0; i < NFILAS; i++) {
+
+            for (int j=0; j < NCOLUMNAS; j++) {
+
+                if (tablero[i][j] == turno) count++;
+
+            }
+            if (count == 4) return true;
+            else count = 0;
+        }
+
+        return false;
+    }
+
+    public boolean comprobarCuatro(int turno){
+
+        if (comprobarFilas(turno)) return true;
+        else if (comprobarColumnas(turno)) return true;
+        else if (comprobarDiagonales(turno)) return true;
+        else return false;
+
+    }
+
 }

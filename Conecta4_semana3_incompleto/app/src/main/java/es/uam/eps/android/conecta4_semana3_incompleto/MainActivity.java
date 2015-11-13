@@ -68,7 +68,18 @@ public class MainActivity extends Activity {
         }
 
         game.ponerJugador(fila, columna); //posiciona al jugador en la posicion
+        //comprobamos que no se haya conectado cuatro
+        if(game.comprobarCuatro(Game.JUGADOR)) {
+            dibujarTablero();
+            resultadoTextView.setText(R.string.gana_jugador);
+        }
+
+
         game.juegaMaquina(); //llama a que mueva la maquina
+        if(game.comprobarCuatro(Game.MAQUINA)) {
+            dibujarTablero();
+            resultadoTextView.setText(R.string.gana_maquina);
+        }
         dibujarTablero(); //dibuja el tablero
     }
 

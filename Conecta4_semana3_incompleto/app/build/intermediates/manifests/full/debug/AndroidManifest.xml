@@ -8,6 +8,10 @@
         android:minSdkVersion="15"
         android:targetSdkVersion="23" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -16,6 +20,13 @@
         <activity
             android:name="es.uam.eps.android.conecta4_semana3_incompleto.MainActivity"
             android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name=".MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="es.uam.eps.android.conecta4_semana3_incompleto.Initial" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
