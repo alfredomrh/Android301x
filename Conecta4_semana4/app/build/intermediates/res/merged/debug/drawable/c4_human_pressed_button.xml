@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="ring" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadiusRatio="3"
+    android:thicknessRatio="8" 
+    android:useLevel="false">
+
+    <solid android:color="#FFAA00" />
+</shape>
+<!-- From: file:/D:/Github/Android301x/Conecta4_semana4/app/src/main/res/drawable/c4_human_pressed_button.xml -->

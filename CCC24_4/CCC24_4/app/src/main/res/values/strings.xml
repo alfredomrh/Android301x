@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CCC24_4</string>
+    <string name="first_button_text">First</string>
+    <string name="second_button_text">Second</string>
+
+</resources>
