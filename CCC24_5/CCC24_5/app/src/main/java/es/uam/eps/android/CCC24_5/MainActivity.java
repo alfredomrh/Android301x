@@ -13,10 +13,11 @@ public class MainActivity extends Activity implements OnButtonSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_master_detail);
+
+	  super.onCreate(savedInstanceState);
+	  setContentView(R.layout.activity_master_detail);
 		
-		Display display = getWindowManager().getDefaultDisplay();
+	  Display display = getWindowManager().getDefaultDisplay();
 	  DisplayMetrics outMetrics = new DisplayMetrics ();
 	  display.getMetrics(outMetrics);
 	  float density  = getResources().getDisplayMetrics().density;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CCC26</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="gameOverTitle">Fin del juego</string>
+    <string name="initialImage">Imagen inicial del juego</string>
+    <string name="aboutText">Acerca de</string>
+    <string name="sendMessageText">Enviar mensaje</string>
+    <string name="searchText">Buscar</string>
+    <string name="searchByNameText">Buscar por nombre</string>
+    <string name="searchByBirthDateText">Buscar por fecha de nacimiento</string>
+    <string name="searchByLastNameText">Buscar por apellido</string>
+    <string name="aboutMessage">Cha cha cha es un juego solitario
+        en el que hemos de comer una a una las fichas
+        saltando por encima de ellas, solo en vertical u
+        horizontal, hacia la casilla adyacente que se 
+        encuentre vacía. El objetivo es dejar 
+        la última ficha en el centro del tablero, el 
+        lugar que comenzó libre.</string>
+    <string name="gameOverMessage">¿Quiere jugar otra partida?</string>
+    
+</resources>

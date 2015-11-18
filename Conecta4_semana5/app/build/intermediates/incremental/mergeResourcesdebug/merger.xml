@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res"><file name="c4_button" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\drawable\c4_button.xml" qualifiers="" type="drawable"/><file name="c4_human_pressed_button" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\drawable\c4_human_pressed_button.xml" qualifiers="" type="drawable"/><file name="c4_machine_pressed_button" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\drawable\c4_machine_pressed_button.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="conecta4" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\drawable-mdpi\conecta4.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="about" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\layout\about.xml" qualifiers="" type="layout"/><file name="activity_main" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="initial" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\layout\initial.xml" qualifiers="" type="layout"/><file name="c4_menu" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\menu\c4_menu.xml" qualifiers="" type="menu"/><file name="funkandblues" path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\raw\funkandblues.mp3" qualifiers="" type="raw"/><file path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\values\arrays.xml" qualifiers=""><string-array name="fichas">
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+    </string-array><string-array name="codigosFichas">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array></file><file path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\values\strings.xml" qualifiers=""><string name="editTextPrefTitle">Nombre del jugador</string><string name="editTextPrefSummary">Pulse para teclear el nombre del jugador</string><string name="checBoxPrefTitle">Música de fondo</string><string name="gana_humano">Ganas la partida</string><string name="listPrefTitle">Color de las fichas</string><string name="app_name">Conecta4 incompleto (Semana 5)</string><string name="preferencesText">Ajustes</string><string name="gana_maquina">Gana la máquina</string><string name="listPrefSummary">Pulse para mostrar la lista</string><string name="contentDescription">Botón de Conecta 4</string><string name="aboutMessage">Conecta 4 es un juego de dos jugadores, humano
+        contra la máquina. Cada jugador ha de colocar una ficha en una matriz 
+        de 6 x 7 posiciones. Solo se puede colocar ficha en la posición libre mas baja
+        de cada columna. Gana el jugador que primero alinee cuatro fichas en fila,
+        columna o diagonal.</string><string name="mensaje_fin_del_juego">¿Quieres jugar otra partida?</string><string name="titulo">CONECTA 4</string><string name="secondCategoryPrefTitle">Ajustes del juego</string><string name="aboutText">Acerca de</string><string name="nosepuedecolocarficha">No se puede colocar ficha</string><string name="listPrefDialogTitle">Elija la figura inicial</string><string name="fin_del_juego">La partida ha terminado</string><string name="checBoxPrefSummary">Marque si desea escuchar música</string><string name="initialImage">Imagen con la portada del juego</string><string name="firstCategoryPrefTitle">Datos personales</string></file><file path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="C4Button">
+        <item name="android:layout_width">match_parent</item>>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:src">@drawable/c4_button</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:onClick">pulsado</item>
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="D:\Github\Android301x\Conecta4_semana5\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source><source path="D:\Github\Android301x\Conecta4_semana5\app\build\generated\res\rs\debug"/><source path="D:\Github\Android301x\Conecta4_semana5\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="D:\Github\Android301x\Conecta4_semana5\app\src\debug\res"/></dataSet><mergedItems/></merger>
