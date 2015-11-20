@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CCC24_5</string>
+    <string name="first_button_text">Primero</string>
+    <string name="second_button_text">Segundo</string>
+    <string name="fragment2_button_text">Añadir fragmento</string>
+    <string name="preferences_text">Preferencias</string>
+    <string name="exit_text">Salir</string>
+    <string name="salir_de_la_app">¿Desea salir de la app?</string>
+    <string name="pref_basicas">Preferencias básicas</string>
+    <string name="pref_show_exit_dialog">Mostrar diálogo salir</string>
+    <string name="pref_show_exit_dialog_summary">Marqué para que muestre el
+diálogo de confirmación</string>
+    
+</resources>
+

@@ -1,6 +1,7 @@
 package es.uam.eps.android.conecta4_semana5_incompleto;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -39,6 +40,7 @@ public class MainActivity extends Activity {
        setContentView(R.layout.activity_main);
 
        // Aqui debes incluir tu codigo
+       game = new Game();
        
 	   resultadoTextView = (TextView) findViewById(R.id.resultadoTextView);
     }
@@ -58,6 +60,13 @@ public class MainActivity extends Activity {
            for (int j = 0; j < Game.NCOLUMNAS; j++) {
 
                // Aqui debes incluir tu codigo
+               //recorre la matriz comprobando el estado de cada casilla y le asigna el boton correspondiente
+
+               if(game.estaVacio(i,j)) id = R.drawable.c4_button;
+
+               else if(game.estaJugador(i, j)) id = R.drawable.c4_human_pressed_button;
+
+               else id = R.drawable.c4_machine_pressed_button;
 
                ImageButton imageButton = (ImageButton) findViewById(ids[i][j]);
                imageButton.setImageResource(id);
@@ -74,8 +83,10 @@ public class MainActivity extends Activity {
 
 		if (game.finalJuego()) {
 			// Aqui debes mostrar un dialogo de alerta
+            Toast.makeText(this, R.string.fin_del_juego, Toast.LENGTH_SHORT)
+                    .show();
 
-		 	return;
+            return;
 		}
 
 		fila = deIdentificadorAFila(id);
@@ -96,6 +107,8 @@ public class MainActivity extends Activity {
 			dibujarTablero();
             resultadoTextView.setText(R.string.gana_humano);
             // Aqui debes mostrar un dialogo de alerta
+            new AlertDialogFragment()
+                    .show(getFragmentManager(), "ALERT DIALOG");
             
             return;
 		}
@@ -106,6 +119,8 @@ public class MainActivity extends Activity {
 			dibujarTablero();
             resultadoTextView.setText(R.string.gana_maquina);
             // Aqui debes mostrar un dialogo de alerta
+            new AlertDialogFragment()
+                    .show(getFragmentManager(), "ALERT DIALOG");
             
             return;
 		}
@@ -144,9 +159,23 @@ public class MainActivity extends Activity {
     *************************************************************************/
     public boolean onOptionsItemSelected(MenuItem item) {
         // Aqui debes incluir tu instruccion switch
-    	
+
+        switch (item.getItemId()) {
+            case R.id.menuAbout:
+                startActivity(new Intent(this, About.class));
+                return true;
+            case R.id.preferences:
+                Toast.makeText(this, "Preferencias", Toast.LENGTH_LONG).show();
+                return true;
+        }
+
         return super.onOptionsItemSelected(item);
-    } 
+    }
+
+    protected void onResume(){
+        super.onResume();
+        Music.play(this, R.raw.funkandblues);
+    }
 	
     protected void onPause(){
 		super.onPause();

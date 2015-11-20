@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/descrip_image"
+       />
+
+</LinearLayout><!-- From: file:/D:/Github/Android301x/ActividadSemana6/ActividadSemana6/app/src/main/res/layout/fragment3.xml -->

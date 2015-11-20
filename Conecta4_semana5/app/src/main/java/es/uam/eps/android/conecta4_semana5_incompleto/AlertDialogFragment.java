@@ -34,7 +34,7 @@ public class AlertDialogFragment extends DialogFragment {
 				});
 		// Aqui debes colocar tu codigo
 
-		alertDialogBuilder.setPositiveButton("No",
+		alertDialogBuilder.setNegativeButton("No",
 				new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog, int which) {
 						main.finish();

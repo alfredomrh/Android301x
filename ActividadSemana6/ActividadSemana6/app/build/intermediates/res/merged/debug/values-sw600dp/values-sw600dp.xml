@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Github/Android301x/ActividadSemana6/ActividadSemana6/app/src/main/res/values-sw600dp/refs.xml -->
+    <eat-comment/>
+    <item name="activity_master_detail" type="layout">@layout/activity_tablet</item>
+</resources>

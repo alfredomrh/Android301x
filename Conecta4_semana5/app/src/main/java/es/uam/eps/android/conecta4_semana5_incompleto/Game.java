@@ -12,14 +12,14 @@ public class Game {
 	private final String JUGADORSTR = "2222";
 	private int tablero[][];
 	private boolean juego_activo = true;
-
+	//Constructor de la clase inicializa el tablero a vacio
 	public Game() {
 		tablero = new int[NFILAS][NCOLUMNAS];
 		for (int i = 0; i < NFILAS; i++)
 			for (int j = 0; j < NCOLUMNAS; j++)
 				tablero[i][j] = VACIO;
 	}
-
+	//metodo que retorna el valor de una posicion del tablero
 	public int getTablero(int i, int j) {
 		return tablero[i][j];
 	}
@@ -32,8 +32,11 @@ public class Game {
     *************************************************************************/
     public boolean estaVacio(int i, int j) {
         // Aqui debes incluir tu codigo
-   	
-    	return true;
+		if(tablero[i][j] == VACIO)
+
+			return true;
+
+		return false;
     }
 
 	public boolean estaMaquina(int i, int j) {
@@ -49,8 +52,11 @@ public class Game {
     public boolean estaJugador(int i, int j) {
    	
     	// Aqui debes incluir tu codigo
-   	
-        return false;
+		if(tablero[i][j] == JUGADOR)
+
+			return true;
+
+		return false;
     }
 
 	public void setJugador(int i, int j) {
@@ -66,7 +72,7 @@ public class Game {
 
 		return true;
 	}
-
+	//si el tablero esta lleno o el juego inactivo retorna true
 	public boolean finalJuego() {
 		if (tableroLleno() || !juego_activo)
 			return true;
@@ -84,8 +90,17 @@ public class Game {
     *************************************************************************/
     public boolean sePuedeColocarFicha(int i, int j) {
         // Aqui debes incluir tu codigo
-   	
-    	return true;
+		if(estaVacio(i,j)) {//primero comprueba que la posicion esta vacia
+
+			for (int pf = 0; pf < i; pf++) //recorre desde la fila cero de esa columna viendo si las fichas estan ocupadas hasta la posicion deseada
+
+				if (tablero[pf][j] == VACIO) return false;
+
+		}
+
+		else return false;
+
+		return true;
     }
 
 	public void juegaMaquina() {
@@ -135,6 +150,15 @@ public class Game {
     *************************************************************************/
 	boolean comprobarColumnas(int turno) {
 		// Coloca aqui tu codigo
+		String cadena = turno == MAQUINA ? MAQUINASTR : JUGADORSTR;
+
+		for (int j = 0; j < NCOLUMNAS; j++) {
+			String str = "";
+			for (int i = 0; i < NFILAS; i++)
+				str += Integer.toString(tablero[i][j]);
+			if (str.contains(cadena))
+				return true;
+		}
 		
 		return false;
 	}
@@ -168,5 +192,11 @@ public class Game {
     *************************************************************************/
 	public void restart() {
 		// Coloca aqui tu codigo
+		for (int i = 0; i < NFILAS; i++)
+			for (int j = 0; j < NCOLUMNAS; j++)
+				tablero[i][j] = VACIO;
+
+		juego_activo = true;
+
 	}
 }

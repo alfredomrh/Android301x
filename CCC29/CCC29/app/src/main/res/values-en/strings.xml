@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CCC29</string>
+    <string name="action_settings">Settings</string>
+    <string name="gameOverTitle">Game over</string>
+    <string name="gameOverMessage">Do you want to play again?</string>
+    <string name="initialImage">Imagen inicial del juego</string>
+    <string name="aboutText">About</string>
+    <string name="sendMessageText">Send message</string>
+    <string name="aboutMessage">Cha cha cha is a solitaire game
+        in which we have to get rid of the pieces
+        jumping over them, vertically or
+        horizontally, towards the adjacent position which
+        must be empty. The aim is to leave
+        the last piece in the center of the board, the position
+        that is initially empty.</string>  
+    <string name="firstCategoryPrefTitle">Personal data</string>
+    <string name="editTextPrefTitle">Player name</string>
+    <string name="editTextPrefSummary">Click to type the player name</string>
+    <string name="secondCategoryPrefTitle">Game properties</string>
+    <string name="listPrefTitle">Type of figure</string>
+    <string name="listPrefSummary">Click to pop up a list to choose from</string>
+    <string name="checBoxPrefTitle">Background music</string>
+    <string name="checBoxPrefSummary">Mark if you want to listen to music</string>
+    <string name="listPrefDialogTitle">Choose the initial figure</string>
+    <string name="preferencesText">Preferences</string>
+</resources>

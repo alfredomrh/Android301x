@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Github/Android301x/ActividadSemana6/ActividadSemana6/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <bool name="show_close_dialog_default">true</bool>
+    <!-- From: file:/D:/Github/Android301x/ActividadSemana6/ActividadSemana6/app/src/main/res/values/refs.xml -->
+    <eat-comment/>
+    <item name="activity_master_detail" type="layout">@layout/activity_main</item>
+    <!-- From: file:/D:/Github/Android301x/ActividadSemana6/ActividadSemana6/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">CCC24_5</string>
+    <string name="descrip_image">launcher</string>
+    <string name="exit_text">Exit</string>
+    <string name="first_button_text">First</string>
+    <string name="fragment2_button_text">Add fragment</string>
+    <string name="pref_basicas">Basic preferences</string>
+    <string name="pref_show_exit_dialog">Show exit dialog?</string>
+    <string name="pref_show_exit_dialog_summary">Check it to show the exit confirmation dialog</string>
+    <string name="preferences_text">Preferences</string>
+    <string name="salir_de_la_app">Should we close this app?</string>
+    <string name="second_button_text">Second</string>
+    <!-- From: file:/D:/Github/Android301x/ActividadSemana6/ActividadSemana6/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <string name="show_close_dialog_key">MOSTRAR_DIALOGO_SALIR</string>
+    <!-- From: file:/D:/Github/Android301x/ActividadSemana6/ActividadSemana6/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

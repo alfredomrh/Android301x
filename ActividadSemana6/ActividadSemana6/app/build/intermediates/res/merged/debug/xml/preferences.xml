@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+  <PreferenceCategory android:title="@string/pref_basicas">
+      <CheckBoxPreference
+          android:key="SHOW_EXIT_DIALOG"
+          android:title="@string/pref_show_exit_dialog"
+          android:summary="@string/pref_show_exit_dialog_summary" 
+          android:defaultValue="true"
+          />
+  </PreferenceCategory>    
+
+</PreferenceScreen>
+<!-- From: file:/D:/Github/Android301x/ActividadSemana6/ActividadSemana6/app/src/main/res/xml/preferences.xml -->

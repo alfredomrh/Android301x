@@ -1,6 +1,7 @@
 package es.uam.eps.android.conecta4_semana5_incompleto;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
 
@@ -18,6 +19,13 @@ public class Initial extends Activity {
     *************************************************************************/
     public boolean onTouchEvent(MotionEvent event) {
     	// Aqui debes colocar tu codigo
+        int action = event.getAction(); //captura el tipo de evento
+
+        if (action == MotionEvent.ACTION_DOWN)
+
+            startActivity(new Intent(this, MainActivity.class));
+
+
         return true;
     }
 }
