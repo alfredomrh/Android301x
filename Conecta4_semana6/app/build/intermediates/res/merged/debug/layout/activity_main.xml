@@ -1,0 +1,254 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:stretchColumns="*"
+    tools:context="${packageName}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/tituloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:text="@string/titulo"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resultadoTextView"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TableRow android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/c35"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c36"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c37"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c38"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c39"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c40"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c41"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/c28"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c29"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c30"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c31"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c32"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c33"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c34"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/c21"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c22"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c23"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c24"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c25"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c26"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c27"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/c14"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c15"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c16"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c17"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c18"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c19"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c20"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/c7"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c8"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c9"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c10"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c11"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c12"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c13"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1" >
+
+        <ImageButton
+            android:id="@+id/c0"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c1"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c2"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c3"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c4"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c5"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+
+        <ImageButton
+            android:id="@+id/c6"
+            style="@style/C4Button"
+            android:contentDescription="@string/contentDescription" />
+    </TableRow>
+
+</TableLayout><!-- From: file:/D:/Github/Android301x/Conecta4_semana6/app/src/main/res/layout/activity_main.xml -->

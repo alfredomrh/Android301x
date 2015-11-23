@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.uam.eps.android.conecta4_semana6_incompleto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="es.uam.eps.android.conecta4_semana6_incompleto.Initial"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="es.uam.eps.android.conecta4_semana6_incompleto.MainActivity"
+            android:label="" >
+            <intent-filter>
+                <action android:name="es.uam.eps.android.conecta4_semana6_incompleto.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="es.uam.eps.android.conecta4_semana6_incompleto.About"
+            android:label="Conecta 4"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" >
+            <intent-filter>
+                <action android:name="es.uam.eps.android.conecta4_semana6_incompleto.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="es.uam.eps.android.conecta4_semana6_incompleto.CCCPreference"
+            android:label="" >
+            <intent-filter>
+                <action android:name="es.uam.eps.android.conecta4_semana6_incompleto.CCCPREFERENCE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
